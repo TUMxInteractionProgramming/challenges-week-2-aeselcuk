@@ -1,0 +1,86 @@
+/*GLOBAL*/
+* {
+    /* #2 #font #faces */
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+
+
+/*APP BAR*/
+
+
+/*CHANNEL LIST*/
+ul {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    list-style-type: none;
+}
+
+/*TAB BAR*/
+#tab-bar button{
+    background-color:white;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    border: 0px;
+    padding: 16px;
+    height: 72px;
+    width: 33%;
+    
+}
+
+/*MESSAGES*/
+.message{
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%
+}
+.message.own{
+    margin-left: 17.5%;
+}
+.message button{
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+.message p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding: 16px;
+}
+
+strong {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+.message h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+.message em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+
+a{
+    color: black;
+}
